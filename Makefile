@@ -15,10 +15,10 @@ SRCS = push_swap.c args_checker.c tools.c sort.c nodes_tools.c sort_tools.c\
        ./lst_func/ft_lstclear.c \
        ./lst_func/ft_lstsize.c \
        ./lst_func/ft_lst2last.c \
-       ./op./push.c \
-       ./op./swap.c \
-       ./op./rotate.c \
-       ./op./reverse_rotate.c \
+       ./op/push.c \
+       ./op/swap.c \
+       ./op/rotate.c \
+       ./op/reverse_rotate.c \
 	
 
 OBJS = $(SRCS:.c=.o)
